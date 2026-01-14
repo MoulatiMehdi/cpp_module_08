@@ -1,8 +1,9 @@
 #include "easyfind.hpp"
+#include <algorithm>
 #include <cstdlib>
 #include <ctime>
-#include <exception>
 #include <iostream>
+#include <list>
 #include <ostream>
 #include <vector>
 
@@ -10,7 +11,7 @@ void fillVector(std::vector<int> &vec, int size)
 {
     for (int i = 0; i < size; i++)
     {
-        vec.push_back(std::rand() % 100);
+        vec.push_back(std::rand() % 20);
     }
 }
 
@@ -31,8 +32,9 @@ int main()
 {
     srand(time(0));
 
-    const int        target = 5;
+    const int        target = rand() % 20;
     std::vector<int> v;
+    std::list<int>   b;
 
     fillVector(v, 10);
     std::cout << v << std::endl;
