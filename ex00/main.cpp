@@ -16,7 +16,7 @@ void fillVector(std::vector<int> &vec, int size)
 
 std::ostream &operator<<(std::ostream &out, const std::vector<int> &vec)
 {
-    std::cout << "Set : {";
+    std::cout << "\tSet : {";
     for (unsigned int i = 0; i < vec.size(); i++)
     {
         std::cout << vec[i];
@@ -37,7 +37,7 @@ int main()
     fillVector(v, 10);
     std::cout << v << std::endl;
 
-    std::cout << "\t- is " << target << " in the Set ? ";
+    std::cout << "is " << target << " in the Set ? ";
     try
     {
         easyfind(v, target);
