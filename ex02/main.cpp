@@ -15,7 +15,6 @@ int main()
         std::cout << mstack.top() << std::endl;
         mstack.pop();
         std::cout << mstack.size() << std::endl;
-        std::cout << "--" << std::endl;
         mstack.push(3);
         mstack.push(5);
         mstack.push(737);
@@ -40,7 +39,6 @@ int main()
         std::cout << mstack.back() << std::endl;
         mstack.pop_back();
         std::cout << mstack.size() << std::endl;
-        std::cout << "--" << std::endl;
         mstack.push_back(3);
         mstack.push_back(5);
         mstack.push_back(737);
