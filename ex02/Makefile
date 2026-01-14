@@ -7,7 +7,7 @@ DEPS = MutantStack.hpp MutantStack.tpp
 SRCS =  main.cpp  
 
 OBJS = $(SRCS:.cpp=.o) 
-NAME = run 
+NAME = ex02 
 
 
 all : $(NAME)

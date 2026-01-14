@@ -7,7 +7,7 @@ DEPS = easyfind.hpp
 SRCS = main.cpp  
 
 OBJS = $(SRCS:.cpp=.o) 
-NAME = run 
+NAME = ex00 
 
 
 all : $(NAME)

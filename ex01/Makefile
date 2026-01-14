@@ -7,7 +7,7 @@ DEPS = Span.hpp
 SRCS = Span.cpp main.cpp  
 
 OBJS = $(SRCS:.cpp=.o) 
-NAME = run 
+NAME = ex01 
 
 
 all : $(NAME)

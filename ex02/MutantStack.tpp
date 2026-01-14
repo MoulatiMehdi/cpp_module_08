@@ -3,9 +3,7 @@
 
 #include <stack>
 #ifndef MUTANT_STACK_HPP
-
     #error MutantStack.hpp is required
-
 #endif
 
 template <typename _Tp, typename _Sequence>
